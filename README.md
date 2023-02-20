@@ -1,6 +1,6 @@
 # Alice
-<a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-GNU_GPLv2-blue.svg"></a>
-<a href="https://github.com/kurikawatt/alice/releases"><img src="https://img.shields.io/github/release/kurikawatt/alice.svg"></a>
+<a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-GNU_GPLv2-blue.svg?style=for-the-badge"></a>
+<a href="https://github.com/kurikawatt/alice/releases"><img src="https://img.shields.io/github/release/kurikawatt/alice.svg?style=for-the-badge"></a>
 
 <h2>Presentation</h1>
 <p>
