@@ -1,6 +1,8 @@
 import discord
 import os
 import dotenv
+from colorama import Back, Style
+
 
 # load .env file 
 dotenv.load_dotenv()
@@ -19,7 +21,7 @@ for module in all_modules:
 #when the bot is ready
 @bot.event
 async def on_ready():
-    print(f"Logged in as {bot.user}")
+    print(f"{Back.GREEN}[Status]\t{Style.RESET_ALL} Logged in as {bot.user}")
 
 #when a message is sent
 @bot.event
