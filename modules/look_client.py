@@ -11,7 +11,8 @@ class Lookup(cmd.Cog):
     async def lookup(self, ctx:cmd.Context, user:Optional[discord.Member]) -> None:
         if user is None:
             user = ctx.author
-        embed = discord.Embed(title=f"User information for {user.name}", color=0x103a9c) 
+        embed = discord.Embed(title=f"User information for {user.name}", color=0x103a9c)
+        embed.set_author(name=self.bot.user.name, icon_url=self.bot.user.avatar)
         embed.add_field(name="User", value=f"<@{user.id}>", inline=True)
         embed.add_field(name="User ID", value=user.id, inline=True)
         embed.add_field(name="Server related information", value="", inline=False)
