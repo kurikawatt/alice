@@ -26,4 +26,4 @@ class Lookup(cmd.Cog):
 # when loaded, setup will load the cog (slash commands) to the main script
 def setup(bot):
     bot.add_cog(Lookup(bot))
-    print(f"{Back.BLUE}[Modules]\t{Style.RESET_ALL} Lookup module loaded!")
+    print(f"{Back.BLUE}[Modules]{Style.RESET_ALL} Lookup module loaded!")

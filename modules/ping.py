@@ -14,4 +14,4 @@ class Ping(cmd.Cog):
 # when loaded, setup will load the cog (slash commands) to the main script
 def setup(bot):
     bot.add_cog(Ping(bot))
-    print(f"{Back.BLUE}[Modules]\t{Style.RESET_ALL} Ping module loaded!")
+    print(f"{Back.BLUE}[Modules]{Style.RESET_ALL} Ping module loaded!")
