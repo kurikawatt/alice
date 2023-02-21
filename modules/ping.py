@@ -9,7 +9,7 @@ class Ping(cmd.Cog):
 
     @discord.slash_command(name="ping")
     async def ping(self, ctx:cmd.Context) -> None:
-        await ctx.respond(f"Pong in {self.bot.latency}!")
+        await ctx.respond(f"Pong in {round(self.bot.latency, 2)}s!")
 
 # when loaded, setup will load the cog (slash commands) to the main script
 def setup(bot):
