@@ -21,7 +21,7 @@ for module in all_modules:
 #when the bot is ready
 @bot.event
 async def on_ready():
-    print(f"{Back.GREEN}[Status]\t{Style.RESET_ALL} Logged in as {bot.user}")
+    print(f"{Back.GREEN}[Status]{Style.RESET_ALL} Logged in as {bot.user}")
 
 #when a message is sent
 @bot.event
