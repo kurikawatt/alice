@@ -1,6 +1,6 @@
 # Alice
 <a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-GNU_GPLv2-blue.svg?style=for-the-badge"></a>
-[<img src="https://img.shields.io/github/v/release/kurikawatt/alice?style=for-the-badge>](https://img.shields.io/github/v/release/kurikawatt/alice?style=for-the-badge)
+[<img src="https://img.shields.io/github/v/release/kurikawatt/alice?style=for-the-badge">](https://img.shields.io/github/v/release/kurikawatt/alice?style=for-the-badge)
 
 <h2>Presentation</h1>
 <p>
